@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/select.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">  
+
+</head>
+<body>
+  <center><h1>Távolság váltás</h1></center>
+  
+  <center><div class="custom-select" style="width:200px; margin-top:1%;">
+        <select id="select1">
+          <option value="0">Mértékegység:</option>
+          <option value="1">km</option>
+          <option value="2">m</option>
+          <option value="3">dm</option>
+          <option value="4">cm</option>
+          <option value="5">mm</option>
+          <option value="6">yd</option>
+          <option value="7">mile</option>
+        </select>
+      </div></center>
+      
+      <center><input style ="margin-top:1%" id="data" type="text" placeholder="Add meg a távolságot!"/></center>
+
+      <center><div class="custom-select" style="width:200px; margin-top:1%;">
+        <select id="select2">
+          <option value="0">Mértékegység:</option>
+          <option value="1">km</option>
+          <option value="2">m</option>
+          <option value="3">dm</option>
+          <option value="4">cm</option>
+          <option value="5">mm</option>
+          <option value="6">yd</option>
+          <option value="7">mile</option>
+        </select>
+      </div></center>
+      
+      <center><div><h2 id="elso"></h2></div></center>
+    
+      <center><button class="btn" onclick="change()">Váltás</button></center>
+
+
+      <script src="js/main.js"> </script>
+      <script src="js/select.js"> </script>
+</body>
+</html>
