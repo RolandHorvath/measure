@@ -1,3 +1,6 @@
+function temp(){
+    window.open('https://remus1998.github.io/ConverterGatherer/',"_self") 
+}
 function change(){
     var felvesz = document.getElementById('data').value;
 
