@@ -83,7 +83,7 @@ function change(){
         if(s2==7){m = elso;f = "mile";s = "mile";}//mile-mile
     }
 
-    document.getElementById('elso').innerText = `${elso.toFixed(2)} ${f} ${egyenlo} ${m.toFixed(2)} ${s}`;
+    document.getElementById('elso').innerText = `${elso} ${f} ${egyenlo} ${m.toFixed(5)} ${s}`;
     let v = parseInt(elso);
     //document.getElementById('');
 
