@@ -2,9 +2,9 @@
 .custom-select {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    border-top: solid 1px black;
+    
     padding-top: 5px;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.322);
     padding-bottom: 5px;
   }
   
@@ -13,7 +13,13 @@
   }
   
   .select-selected {
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(177, 177, 177);
+    border-radius: 25px;
+  }
+
+
+  .select-selected:hover {
+    background-color: rgb(200, 200, 200);
   }
   
   /*style the arrow inside the select element:*/
@@ -38,7 +44,7 @@
   .select-items div,.select-selected {
     color: #ffffff;
     padding: 8px 16px;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;
@@ -52,6 +58,7 @@
     left: 0;
     right: 0;
     z-index: 99;
+    border-radius: 10px;
   }
   
   /*hide the items when the select box is closed:*/
@@ -60,7 +67,7 @@
   }
   
   .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
   #data{
     font-family: 'Montserrat', sans-serif;

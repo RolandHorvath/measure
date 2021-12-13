@@ -2,6 +2,7 @@ function temp(){
     window.open('https://remus1998.github.io/ConverterGatherer/',"_self") 
 }
 function change(){
+    
     var felvesz = document.getElementById('data').value;
 
     let s1 = document.getElementById('select1').value;
@@ -15,9 +16,8 @@ function change(){
     let f="";
     let s="";
 
-    if(f!=null||s!=null){
-        
-    }
+    
+    
     if(s1==1){
         egyenlo="=";
         if(s2==1){m = elso;f = "km";s = "km";}//km-km
@@ -83,8 +83,25 @@ function change(){
         if(s2==7){m = elso;f = "mile";s = "mile";}//mile-mile
     }
 
+
     document.getElementById('elso').innerText = `${elso} ${f} ${egyenlo} ${m.toFixed(5)} ${s}`;
     let v = parseInt(elso);
     //document.getElementById('');
-
+    if(f!=""&&s!=""){
+        character();
+    }
 }window.addEventListener('load',change);
+
+number = 0;
+var animations = ['img/NOLOOPGIF.gif',
+'img/NOLOOPGIF.gif',
+'img/NOLOOPGIF.gif'
+];
+
+
+function character() {
+
+  image = document.getElementById('gif');
+  image.src = animations[number];
+
+}
