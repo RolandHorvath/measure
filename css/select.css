@@ -17,7 +17,7 @@
   }
 
   .select-selected:hover {
-    background-color: rgb(218, 168, 61);
+    background-color: rgba(216, 170, 71, 0.863);
     color: rgb(126, 76, 1);
     opacity: 1;
     

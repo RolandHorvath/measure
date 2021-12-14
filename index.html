@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/select.css">
-    
-    <link rel="stylesheet" href="css/main.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/select.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
   <ul>
-  <li><a class="btn-flat" href="https://remus1998.github.io/ConverterGatherer/">◁ Vissza</a></li>
+    <li><a class="btn-flat" href="https://remus1998.github.io/ConverterGatherer/">◁ Vissza</a></li>
   </ul>
-      <center><h1 id="h1"style="margin-top: 0%;">Távolság váltás</h1></center>
-      <center><img src="img/NOLOOPGIF.gif" id="gif" /></center>
+  <center>
+    <h1 id="h1" style="margin-top: 0%;">Távolság váltás</h1>
+  </center>
+  <center><img src="img/NOLOOPGIF.gif" id="gif" /></center>
   <div class="container">
-  
-  <center><div class="custom-select" style="width:200px; margin-top:1%;">
+
+    <center>
+      <div class="custom-select" style="width:200px; margin-top:1%;">
         <select id="select1">
           <option value="0">Mértékegység:</option>
           <option value="1">km</option>
@@ -33,11 +38,14 @@
           <option value="6">yd</option>
           <option value="7">mile</option>
         </select>
-      </div></center>
-      
-      <center><input style ="margin-top:1%" class="bevitel"id="data" type="text" placeholder="Add meg a távolságot!"/></center>
+      </div>
+    </center>
 
-      <center><div class="custom-select" style="width:200px; margin-top:1%;">
+    <center><input style="margin-top:1%" class="bevitel" id="data" type="text" placeholder="Add meg a távolságot!" />
+    </center>
+
+    <center>
+      <div class="custom-select" style="width:200px; margin-top:1%;">
         <select id="select2">
           <option value="0">Mértékegység:</option>
           <option value="1">km</option>
@@ -48,17 +56,23 @@
           <option value="6">yd</option>
           <option value="7">mile</option>
         </select>
-      </div></center>
-      
-      <center><div><h2 style = "background-color: rgba(0, 0, 0, 0.356);border-radius: 3px;"id="elso"></h2></div></center>
-    
-      <center>
-        <button class="btn" onclick="change()">Váltás</button>
-      </center>
-    </div>
+      </div>
+    </center>
 
-      <script src="js/main.js"> </script>
-      <script src="js/select.js"> </script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <center>
+      <div>
+        <h2 style="background-color: rgba(0, 0, 0, 0.356);border-radius: 3px;" id="elso"></h2>
+      </div>
+    </center>
+
+    <center>
+      <button class="btn" onclick="change()">Váltás</button>
+    </center>
+  </div>
+
+  <script src="js/main.js"> </script>
+  <script src="js/select.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
+
 </html>
