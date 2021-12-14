@@ -23,7 +23,7 @@ body{
 }
 
 .bevitel{
-  background-color: rgba(0, 0, 0, 0.205);
+  background-color: rgba(0, 0, 0, 0.123);
   color: white;
   border-radius: 3px;
   border-width: 0px;
@@ -89,7 +89,7 @@ body .btn2 {
   line-height: 40px;
   color: rgba(0, 0, 0, 0.144);
   border-radius: 30px;
-  background: linear-gradient(-45deg, #ff280248, #ffa60048, #ffef114d);
+  background: linear-gradient(-45deg, #ffc4003a, #66420021, #5a540023);
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
           animation: anime 16s linear infinite;
@@ -136,9 +136,9 @@ body .btn2 {
   background: transparent;
   border-radius: 5px;
   border: 0px solid rgba(0, 0, 0, 0);
-  color: rgb(172, 172, 172);
+  color: rgb(255, 255, 255);
   background-size: 230% 100%;
-  background-image: linear-gradient(125deg, #ffbb008a 50%, transparent 50%);
+  background-image: linear-gradient(125deg, #463300a6 50%, transparent 50%);
   background-position: 100% 0;
   -moz-transition: background-position 0.17s ease-in-out, color 0.2s ease-in 0.1s;
   -webkit-transition: background-position 0.17s ease-in-out, color 0.2s ease-in 0.1s;
@@ -147,6 +147,7 @@ body .btn2 {
 }
 .btn-flat:hover {
   background-position: 0 0;
-  color: white;
+  color: rgba(53, 43, 20, 0.699);
+  background-image: linear-gradient(125deg, #ffbb008f 50%, transparent 50%);
 }
 

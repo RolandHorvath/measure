@@ -18,7 +18,7 @@
 
 
   .select-selected:hover {
-    background-color: rgb(218, 184, 72);
+    background-color: rgb(218, 168, 61);
     color: rgb(126, 76, 1);
     opacity: 1;
   }
@@ -69,10 +69,10 @@
   }
   
   .select-items div:hover, .same-as-selected {
-    background-color: rgba(224, 189, 35, 0.473);
+    background-color: rgba(224, 173, 35, 0.473);
     opacity: 1;
     border-radius: 5px;
-    color: rgb(255, 245, 102);
+    color: rgb(255, 214, 102);
   }
   #data{
     font-family: 'Montserrat', sans-serif;
