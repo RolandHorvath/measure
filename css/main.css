@@ -5,19 +5,25 @@ body{
 }
 
 .btn{
-  border: 3px solid rgb(177, 177, 177);
-  background-color: rgb(177, 177, 177);
+  border: 1px solid rgb(150, 150, 150);
   color: rgb(0, 0, 0);
-  border-radius: 10px;
   box-shadow: 0px 3px 3px gray;
-  margin-left: 20px;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .btn:hover{
-  
+  border: 1px solid rgb(150, 150, 150);
   background-color: rgba(255, 145, 0, 0.253);
+  color: rgb(236, 236, 236);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.btn:active{
+  transition: 0s;
+  border: 1px solid rgb(150, 150, 150);
+  background-color: rgba(121, 68, 0, 0.253);
   color: rgb(236, 236, 236);
   opacity: 1;
 }
@@ -74,33 +80,46 @@ li a:hover {
   opacity: 1;
 }
 
+input[type=text]{
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+input::-webkit-input-placeholder {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.507);
+}
 
 
+input:focus::-webkit-input-placeholder {
+  transition: 0.1s;
+  color: rgba(255, 208, 0, 0);
+}
+
+input[type=text]:focus {
+  transition: 0.3s;
+  outline: none;
+  border: 1px solid rgba(255, 187, 0, 0.623);
+  color: rgb(255, 220, 168);
+  background-color: rgba(95, 85, 29, 0.233);
+}
 
 
-
-body .btn,
-body .btn2 {
+body .btn{
   cursor:pointer;
-  width: 150px;
-  height: 50px;
-  font-size: 30px;
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   color: rgba(0, 0, 0, 0.144);
-  border-radius: 30px;
-  background: linear-gradient(-45deg, #ffc4003a, #66420021, #5a540023);
+  border-radius: 5px;
+  background: linear-gradient(-45deg, #ffc40028, #66420021, #5a540023);
   background-size: 600%;
   -webkit-animation: anime 16s linear infinite;
           animation: anime 16s linear infinite;
 }
-body .btn2 {
-  position: absolute;
-  margin-top: -70px;
-  z-index: -1;
-  filter: blur(30px);
-  opacity: 0.8;
-}
+
+
 @-webkit-keyframes anime {
   0% {
     background-position: 0% 50%;
@@ -123,7 +142,6 @@ body .btn2 {
     background-position: 0% 50%;
   }
 }
-
 
 
 .btn-flat {

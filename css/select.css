@@ -16,11 +16,11 @@
     transition: 0.3s;
   }
 
-
   .select-selected:hover {
     background-color: rgb(218, 168, 61);
     color: rgb(126, 76, 1);
     opacity: 1;
+    
   }
   
   /*style the arrow inside the select element:*/
