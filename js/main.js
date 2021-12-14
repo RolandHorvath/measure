@@ -1,12 +1,28 @@
 function temp(){
     window.open('https://remus1998.github.io/ConverterGatherer/',"_self") 
 }
+var myVar;
+
 function change(){
+    let s1 = document.getElementById('select1').value;
+    let s2 = document.getElementById('select2').value;
+
+    if(s1>0&&s2>0){
+        character();
+    }
+    
+    myVar = setTimeout(kiir, 2000);
+
+    
+}
+
+function kiir() {
+    let s1 = document.getElementById('select1').value;
+    let s2 = document.getElementById('select2').value;
+
     
     var felvesz = document.getElementById('data').value;
 
-    let s1 = document.getElementById('select1').value;
-    let s2 = document.getElementById('select2').value;
 
     var elso = Number(felvesz);
     var m;
@@ -87,9 +103,6 @@ function change(){
     document.getElementById('elso').innerText = `${elso} ${f} ${egyenlo} ${m.toFixed(5)} ${s}`;
     let v = parseInt(elso);
     //document.getElementById('');
-    if(f!=""&&s!=""){
-        character();
-    }
 }window.addEventListener('load',change);
 
 number = 0;
