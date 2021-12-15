@@ -100,7 +100,7 @@ function kiir() {
 
 
 
-    document.getElementById('elso').innerText = `${elso} ${f} ${egyenlo} ${m.toFixed(5)} ${s}`;
+    document.getElementById('elso').innerText = `${elso} ${f} ${egyenlo} ${m.toFixed(2)} ${s}`;
     let v = parseInt(elso);
     //document.getElementById('');
 } window.addEventListener('load', change);
